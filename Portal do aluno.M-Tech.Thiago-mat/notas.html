@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Aluno - Notas e Presenças</title>
+    <link rel="stylesheet" href="notas.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Notas e Presenças</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="portal-aluno2.html">Início</a></li>
+                    <li><a href="notas.html" class="active">Notas e Presenças</a></li>
+                    <li><a href="curso.html">Cursos</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="grades-section">
+            <div class="container">
+                <h2>Notas</h2>
+                <table class="grades-table">
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota Final</th>
+                            <th>Situação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="grades-table-body">
+                        <!-- Linhas preenchidas dinamicamente pelo JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="attendance-section">
+            <div class="container">
+                <h2>Presenças</h2>
+                <table class="attendance-table">
+                    <thead>
+                        <tr>
+                            <th>Disciplina</th>
+                            <th>Aulas Ministradas</th>
+                            <th>Presenças</th>
+                            <th>Faltas</th>
+                            <th>Percentual de Presença</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendance-table-body">
+                        <!-- Linhas preenchidas dinamicamente pelo JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 M-Tech. Feito por Thiago. Todos os direitos reservados a M-Tech .</p>
+        </div>
+    </footer>
+
+    <script src="notas.js"></script>
+</body>
+</html>

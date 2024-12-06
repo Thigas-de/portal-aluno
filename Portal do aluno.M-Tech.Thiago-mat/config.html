@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - Portal do Aluno</title>
+    <link rel="stylesheet" href="config.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h1>Configurações</h1>
+        <div class="profile-section">
+            <h2>Foto de Perfil</h2>
+            <div class="profile-picture">
+                <img id="profileImage" src="/img/IMG_2041.JPG" alt="Foto de Perfil">
+                <input type="file" id="uploadProfilePicture" accept="image/*">
+            </div>
+        </div>
+        <div class="settings-section">
+            <h2>Outras Configurações</h2>
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua nova senha">
+                </div>
+                <button type="submit">Salvar Alterações</button>
+            </form>
+        </div>
+        <p class="link">
+            <a href="portal-aluno2.html">Voltar ao Portal</a>
+        </p>
+    </div>
+    <script src="config.js"></script>
+</body>
+</html>

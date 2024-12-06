@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Aluno - Biblioteca</title>
+    <link rel="stylesheet" href="biblio.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca</h1>
+        <nav>
+            <a href="portal-aluno2.html">Inicio</a>
+            <a href="biblio.html" class="active">Biblioteca</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Pesquise por título, autor ou categoria" 
+            />
+            <button id="searchBtn">Pesquisar</button>
+        </section>
+
+        <section id="results">
+            <!-- Resultados da pesquisa aparecerão aqui -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portal do Aluno. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="biblio.js"></script>
+</body>
+</html>

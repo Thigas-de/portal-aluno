@@ -1,0 +1,133 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    background: #410066;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a.active, .navbar a:hover {
+    background: #72279e;
+    border-radius: 6px;
+}
+
+
+/* Conteúdo principal */
+.content {
+    padding: 20px 0;
+}
+
+.course-section h2 {
+    text-align: center;
+    color: #410066;
+    margin-bottom: 20px;
+}
+
+.filter-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-bar label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.filter-bar select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Lista de cursos */
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.course-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.course-item:hover {
+    transform: scale(1.05);
+}
+
+.course-item h3 {
+    margin-bottom: 10px;
+    color: #6b00b3;
+}
+
+.course-item p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background: #6200b3;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #77008f;
+}
+
+/* Rodapé */
+.footer {
+    background: #410066;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

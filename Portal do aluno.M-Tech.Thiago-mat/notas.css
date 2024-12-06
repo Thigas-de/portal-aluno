@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    background: #410066;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a.active, .navbar a:hover {
+    background: #72279e;
+    border-radius: 5px;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 20px 0;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #410066;
+    color: #fff;
+}
+
+td {
+    background: #fff;
+    color: #333;
+}
+
+tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+
+/* Rodapé */
+.footer {
+    background: #410066;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

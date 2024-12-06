@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Aluno - Cursos</title>
+    <link rel="stylesheet" href="curso.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Cursos</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="portal-aluno2.html">Início</a></li>
+                    <li><a href="notas.html">Notas e presenças</a></li>
+                    <li><a href="curso.html" class="active">Cursos</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="course-section">
+            <div class="container">
+                <h2>Cursos Disponíveis</h2>
+                <div class="filter-bar">
+                    <label for="filter-category">Filtrar por Categoria:</label>
+                    <select id="filter-category">
+                        <option value="all">Todos</option>
+                        <option value="tecnologia">Tecnologia</option>
+                        <option value="design">Design</option>
+                        <option value="negocios">Negócios</option>
+                    </select>
+                </div>
+
+                <div class="course-list">
+                    <div class="course-item" data-category="tecnologia">
+                        <h3>Introdução à Programação</h3>
+                        <p>Aprenda os fundamentos da programação com este curso básico.</p>
+                        <button class="btn btn-inscrever">Inscrever-se</button>
+                    </div>
+                    <div class="course-item" data-category="design">
+                        <h3>Design Gráfico Avançado</h3>
+                        <p>Explore técnicas avançadas de design gráfico e ferramentas modernas.</p>
+                        <button class="btn btn-inscrever">Inscrever-se</button>
+                    </div>
+                    <div class="course-item" data-category="negocios">
+                        <h3>Gestão de Projetos</h3>
+                        <p>Domine práticas e metodologias de gerenciamento de projetos.</p>
+                        <button class="btn btn-inscrever">Inscrever-se</button>
+                    </div>
+                    <div class="course-item" data-category="tecnologia">
+                        <h3>Desenvolvimento Web</h3>
+                        <p>Crie sites dinâmicos e modernos utilizando HTML, CSS e JavaScript.</p>
+                        <button class="btn btn-inscrever">Inscrever-se</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portal do Aluno. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="curso.js"></script>
+</body>
+</html>
